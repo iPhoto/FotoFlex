@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of Picodone</title>
+	<nodes>
+		<node label="bin-release1">
+		</node>
+		<node label="bin-release2">
+		</node>
+		<node label="bin-release3">
+		</node>
+		<node label="html-template">
+			<node icon="htmlIcon" label="index.template.html" url="source/html-template/index.template.html"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/html-template/playerProductInstall.swf"/>
+			<node label="swfobject.js" url="source/html-template/swfobject.js.txt"/>
+		</node>
+		<node label="libs">
+			<node label="as3_jpeg_wrapper.swc" url="source/libs/as3_jpeg_wrapper.swc"/>
+		</node>
+		<node label="src">
+			<node label="assets">
+				<node icon="imageIcon" label="FOTO FLEX (1).png" url="source/assets/FOTO FLEX (1).png.html"/>
+				<node icon="imageIcon" label="FOTO FLEX (2).png" url="source/assets/FOTO FLEX (2).png.html"/>
+				<node icon="imageIcon" label="logo5.gif" url="source/assets/logo5.gif.html"/>
+			</node>
+			<node icon="packageIcon" label="picdone.display" expanded="true">
+				<node icon="actionScriptIcon" label="CursorManager.as" url="source/picdone/display/CursorManager.as.html"/>
+				<node icon="actionScriptIcon" label="CursorType.as" url="source/picdone/display/CursorType.as.html"/>
+				<node icon="actionScriptIcon" label="DraggableCanvas.as" url="source/picdone/display/DraggableCanvas.as.html"/>
+				<node icon="actionScriptIcon" label="LayeredCanvas.as" url="source/picdone/display/LayeredCanvas.as.html"/>
+			</node>
+			<node label="picdone.display.images">
+				<node icon="imageIcon" label="color_picker.png" url="source/picdone/display/images/color_picker.png.html"/>
+				<node icon="imageIcon" label="grid.png" url="source/picdone/display/images/grid.png.html"/>
+				<node icon="imageIcon" label="hand.png" url="source/picdone/display/images/hand.png.html"/>
+				<node icon="imageIcon" label="move.png" url="source/picdone/display/images/move.png.html"/>
+				<node icon="imageIcon" label="resize_ew.png" url="source/picdone/display/images/resize_ew.png.html"/>
+				<node icon="imageIcon" label="resize_nesw.png" url="source/picdone/display/images/resize_nesw.png.html"/>
+				<node icon="imageIcon" label="resize_ns.png" url="source/picdone/display/images/resize_ns.png.html"/>
+				<node icon="imageIcon" label="resize_nwse.png" url="source/picdone/display/images/resize_nwse.png.html"/>
+			</node>
+			<node icon="packageIcon" label="picdone.graphics" expanded="true">
+				<node icon="actionScriptIcon" label="BitmapDataEx.as" url="source/picdone/graphics/BitmapDataEx.as.html"/>
+				<node icon="actionScriptIcon" label="Blend.as" url="source/picdone/graphics/Blend.as.html"/>
+				<node icon="actionScriptIcon" label="ColorBalance.as" url="source/picdone/graphics/ColorBalance.as.html"/>
+				<node icon="actionScriptIcon" label="PixelArray.as" url="source/picdone/graphics/PixelArray.as.html"/>
+				<node icon="actionScriptIcon" label="Redeye.as" url="source/picdone/graphics/Redeye.as.html"/>
+			</node>
+			<node icon="packageIcon" label="picdone.utils" expanded="true">
+				<node icon="actionScriptIcon" label="ImageIO.as" url="source/picdone/utils/ImageIO.as.html"/>
+			</node>
+			<node icon="mxmlIcon" label="Basics.mxml" url="source/Basics.mxml.html"/>
+			<node icon="mxmlIcon" label="Dialog.mxml" url="source/Dialog.mxml.html"/>
+			<node icon="mxmlIcon" label="Effects.mxml" url="source/Effects.mxml.html"/>
+			<node icon="mxmlIcon" label="ImageCanvas.mxml" url="source/ImageCanvas.mxml.html"/>
+			<node icon="cssIcon" label="Picdone.css" url="source/Picdone.css.html"/>
+			<node icon="mxmlAppIcon" selected="true" label="Picdone.mxml" url="source/Picdone.mxml.html"/>
+		</node>
+		<node label="bin-debug.rar" url="source/bin-debug.rar"/>
+		<node label="LICENSE" url="source/LICENSE"/>
+		<node label="README.md" url="source/README.md"/>
+	</nodes>
+	<zipfile label="Download source (ZIP, 263K)" url="Picodone.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex451_sdk_download">
+	</sdklink>
+</index>
